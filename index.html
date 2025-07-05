@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tying Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tying Analyzer</h1>
+    <div class="main-container">
+      <textarea name="" id="textarea" rows="10" placeholder="Start typing ...."></textarea>
+    </div>
+    <div class="ouput">
+     <div class="box">
+        <p><strong>Total Characters :</strong><span id="charCount">0</span></p>
+        <p><strong>Characters (no-space) :</strong><span id="charNoSpace">0</span></p>
+     </div>
+     <div class="box">
+        <p><strong>Total Words:</strong><span id="wordCount">0</span></p>
+        <p><strong>Estimated Read Time :</strong><span id="readTime">0</span> sec</p>
+     </div>
+    </div>
+    <button id="clearBtn">Clear</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
